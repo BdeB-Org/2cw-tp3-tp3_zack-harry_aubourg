@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tp3" id="E1E4D1A6-6F7A-0CDC-B31F-2DDE588ACFAC" version="3.5">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:04:17 UTC</createdTime>
+<ownerDesignName>tp3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E1E4D1A6-6F7A-0CDC-B31F-2DDE588ACFAC</designId>
+</OSDM_Design>

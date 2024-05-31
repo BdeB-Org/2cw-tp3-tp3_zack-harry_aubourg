@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4F82C6A-EB82-59ED-EBA8-9575D5349064" name="panier">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:26:45 UTC</createdTime>
+<ownerDesignName>tp3</ownerDesignName>
+<engineerTo>
+<item key="7B1354A8-E037-6FA1-F04D-1E54DFD9464E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_panier" id="3DE74DB8-3362-6CE4-4891-C381FA5E1545">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:26:58 UTC</createdTime>
+<ownerDesignName>tp3</ownerDesignName>
+<engineerTo>
+<item key="7B1354A8-E037-6FA1-F04D-1E54DFD9464E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="montant_total" id="F5AA7452-1A6F-D260-D318-C177AE678CD4">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:27:33 UTC</createdTime>
+<ownerDesignName>tp3</ownerDesignName>
+<engineerTo>
+<item key="7B1354A8-E037-6FA1-F04D-1E54DFD9464E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_de_produit" id="5FF44B84-61C6-506A-92BD-91BCC156E116">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:28:42 UTC</createdTime>
+<ownerDesignName>tp3</ownerDesignName>
+<engineerTo>
+<item key="7B1354A8-E037-6FA1-F04D-1E54DFD9464E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7CFB892C-D74E-160A-8FAA-16B1B0530639" name="panier PK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:27:31 UTC</createdTime>
+<ownerDesignName>tp3</ownerDesignName>
+<engineerTo>
+<item key="7B1354A8-E037-6FA1-F04D-1E54DFD9464E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3DE74DB8-3362-6CE4-4891-C381FA5E1545</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

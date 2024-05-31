@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8D7717F-D727-664B-72C1-D75DCFEC204C" name="client">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:12:39 UTC</createdTime>
+<ownerDesignName>tp3</ownerDesignName>
+<engineerTo>
+<item key="7B1354A8-E037-6FA1-F04D-1E54DFD9464E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_client" id="E1E9062F-5845-A926-A369-C3476735A918">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:12:50 UTC</createdTime>
+<ownerDesignName>tp3</ownerDesignName>
+<engineerTo>
+<item key="7B1354A8-E037-6FA1-F04D-1E54DFD9464E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="A649A90A-53ED-9D99-DEE4-9052742B0615">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:13:32 UTC</createdTime>
+<ownerDesignName>tp3</ownerDesignName>
+<engineerTo>
+<item key="7B1354A8-E037-6FA1-F04D-1E54DFD9464E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="courriel" id="6600D532-2882-D78C-314E-8A9CE09F7C9F">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:13:51 UTC</createdTime>
+<ownerDesignName>tp3</ownerDesignName>
+<engineerTo>
+<item key="7B1354A8-E037-6FA1-F04D-1E54DFD9464E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_commande" id="76D9F35F-0793-D7F3-1167-BA9EC17B60C2">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:16:18 UTC</createdTime>
+<generatorID>707AFA56-B8C4-EFE6-F949-D62748A00007</generatorID>
+<ownerDesignName>tp3</ownerDesignName>
+<engineerTo>
+<item key="7B1354A8-E037-6FA1-F04D-1E54DFD9464E" value="true"/>
+</engineerTo>
+<referedAttribute>50F69707-9AE4-AD3C-FFD2-39137B1FAFD5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_panier" id="47882D63-D235-7135-9C4C-4DB3910F209B">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:29:31 UTC</createdTime>
+<generatorID>A7A3899E-2F61-B7CD-786E-3A1BE2AFC7B9</generatorID>
+<ownerDesignName>tp3</ownerDesignName>
+<engineerTo>
+<item key="7B1354A8-E037-6FA1-F04D-1E54DFD9464E" value="true"/>
+</engineerTo>
+<referedAttribute>3DE74DB8-3362-6CE4-4891-C381FA5E1545</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produit" id="FE1479C7-9A75-EEFF-2FC5-20F6C6EC9B96">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:32:31 UTC</createdTime>
+<generatorID>983068FD-38C8-CA91-54DF-45E3AA5E9F29</generatorID>
+<ownerDesignName>tp3</ownerDesignName>
+<engineerTo>
+<item key="7B1354A8-E037-6FA1-F04D-1E54DFD9464E" value="true"/>
+</engineerTo>
+<referedAttribute>F1608200-6CA4-4DF2-A3A6-516DF8C3B839</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0BCC9EA-D1B7-F276-695E-9158F0F073F6" name="client PK">
+<createdBy>Admin</createdBy>
+<createdTime>2024-05-31 05:13:15 UTC</createdTime>
+<ownerDesignName>tp3</ownerDesignName>
+<engineerTo>
+<item key="7B1354A8-E037-6FA1-F04D-1E54DFD9464E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1E9062F-5845-A926-A369-C3476735A918</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
